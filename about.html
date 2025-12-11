@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About – ScholarConnect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ASSETS/ScholarConnect_Logo.png">
+
+    <style>
+        /* PAGE WRAPPER */
+        .about-hero {
+        padding: 60px 0 110px;   
+        background: linear-gradient(to bottom, #ffffff, #f0fdf4);
+        }
+
+        .about-hero-inner {
+            width: 1100px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .about-hero-text {
+            max-width: 52%;
+        }
+
+        .about-eyebrow {
+            font-size: 14px;
+            font-weight: 700;
+            color: #065f46;
+            margin-bottom: 10px;
+        }
+
+       .about-title {
+        font-size: 38px;             
+        line-height: 46px;
+        font-weight: 800;
+        color: #0f172a;
+        margin-bottom: 16px;         
+        }
+
+        .about-subtitle {
+            font-size: 18px;           
+            line-height: 26px;
+        }
+
+
+            .about-hero-img img {
+            width: 560px;                 /* increased from 480px */
+            border-radius: 16px;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 20px 45px rgba(2,6,23,0.10);
+        }
+
+        /* SECTIONS */
+        .section {
+            padding: 40px 0 50px;
+            width: 1100px;
+            margin: auto;
+        }
+
+        .about-section-title {
+            font-size: 26px;
+            font-weight: 800;
+            color: #064e3b;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .about-section-subtitle {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* GRID */
+        .about-grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .about-card {
+            width: 30%;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            padding: 20px;
+            border-radius: 14px;
+            box-shadow: 0 12px 30px rgba(2,6,23,0.05);
+            transition: 0.2s ease;
+        }
+
+        .about-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 42px rgba(2,6,23,0.08);
+            border-color: #16a34a;
+        }
+
+        .about-card h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: #065f46;
+        }
+
+        .about-card p {
+            font-size: 14px;
+            line-height: 22px;
+            color: #4b5563;
+        }
+
+        /* TEAM SECTION */
+        .team-grid {
+            display: flex;
+            gap: 22px;
+            justify-content: center;
+        }
+
+        .team-card {
+            width: 25%;
+            text-align: center;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            padding: 20px;
+            border-radius: 14px;
+            box-shadow: 0 10px 26px rgba(2,6,23,0.05);
+        }
+
+        .team-card img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 2px solid #16a34a;
+            margin-bottom: 12px;
+        }
+
+        .team-card h4 {
+            font-size: 16px;
+            color: #064e3b;
+            margin-bottom: 6px;
+        }
+
+        .team-card p {
+            font-size: 13px;
+            color: #4b5563;
+            line-height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-inner">
+            <div class="logo">
+                <span class="logo-icon">
+                    <a href="index.html"><img src="ASSETS/LOGO.jpg" alt="LOGO" style="width: 70px;"></a>
+                </span>
+                <span class="logo-text"><a href="index.html">ScholarConnect</a></span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="scholarships.html">Scholarships</a>
+                <a href="categories.html">Categories</a>
+                 <a href="how-it-works.html">How it works</a>
+                <a href="support.html">Support</a>
+                <a href="about.html">About</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="login.html" class="btn btn-outline">Login</a>
+                <a href="signup.html" class="btn btn-primary">Sign up</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="about-hero">
+        <div class="about-hero-inner">
+            <div class="about-hero-text">
+                <div class="about-eyebrow">Our purpose</div>
+                <h1 class="about-title">Making scholarships simple, clear and accessible.</h1>
+                <p class="about-subtitle">
+                    ScholarConnect was built to solve a real problem: scholarships are confusing, scattered across different portals, and hard to understand. 
+                    Our mission is to guide every student—from Class 9 to postgraduate level—towards verified, relevant scholarship opportunities.
+                </p>
+            </div>
+
+            <div class="about-hero-img">
+                <img src="ASSETS/About.avif">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHAT WE DO -->
+    <section class="section">
+        <h2 class="about-section-title">What we do</h2>
+        <p class="about-section-subtitle">We simplify the student financial aid journey through clarity and guidance.</p>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <h3>Verified scholarship info</h3>
+                <p>We collect and verify scholarship details from official government portals, foundations and universities to ensure accuracy and trust.</p>
+            </div>
+
+            <div class="about-card">
+                <h3>Personalised matching</h3>
+                <p>Our eligibility quiz helps you discover opportunities that match your level, marks, income and study goals without confusion.</p>
+            </div>
+
+            <div class="about-card">
+                <h3>Simplified guidance</h3>
+                <p>Clear eligibility, required documents, deadlines and application steps—explained in simple language for both students and parents.</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="simple-footer">
+        <div class="container simple-footer-inner">
+            <p class="footer-brand">ScholarConnect</p>
+            <p class="footer-copy">© 2025 ScholarConnect • All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
