@@ -6,6 +6,7 @@
   <title>Sign up - ScholarConnect</title>
   <link rel="stylesheet" href="style.css" />
   <style>.hint{font-size:13px;color:#6b7280;margin-bottom:8px;}</style>
+  <link rel="stylesheet" href="script.js">
 </head>
 <body>
   <!-- NAV -->
@@ -105,7 +106,7 @@
   </footer>
 
   <script>
-    // Demo signup: store user in localStorage.sc_user and redirect to ?next=...
+
     function getQueryParam(name){
       const url = new URL(window.location.href);
       return url.searchParams.get(name);
